@@ -46,3 +46,13 @@ Read the `README.md`!
 1. Read some tests! Start with feature and integration tests. Not only will you learn about the application, but also the testing culture and tools used.
 1. Find some tooling that helps you learn. For example, the ruby gem [annotate_models](https://github.com/ctran/annotate_models) is a great tool for understanding the database structure (credit @pkajpust here - he gave me the idea a while back and I've used it a few times now. Even adding it as a permanent mainstay to a current project!).
 1. Remember how we asked if the Readme / documentation was old? Update it! Updating documentation is beneficial not only for the next person, but you're learning how the app works by authoring proper procedures and you're making contributions!
+
+### Luke Olson
+
+#### Advice
+
+1. Unless you've been dumped head first into an application all by yourself, ask your fellow devs for some help. They are your teammates! Their knowledge paired with the readme or other documentation is a great starting point.
+2. Often, enough tests are written that give a good picture of what the code is supposed to do. Find a test that seems important to the context of the application and start there. For example if the app generates invoices, find a test called create or generate invoices.
+3. If the code uses a database, take a look at the schema and relationships. This can help gain a better understanding of all the moving parts behind the scene.
+4. Most importantly, be patient. It's going to be tricky and it's going to take time. Whether the code is brand new and state-of-the-art or a 10 year old monolith, there is no way to learn it all at once. Start picking up tickets and building knowledge and confidence over time. No one expects mastery from day 1.
+5. Finally, is a good chance you will have to do this again. Take note of what helped and hindered you during this process so that the next time is a bit easier and share that knowledge with your fellow devs!
